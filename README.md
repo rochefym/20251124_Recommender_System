@@ -1,11 +1,9 @@
 # API Endpoints
-** Django server address on RTX 5070 hardware server **
-<br>
+**BASE - Django server address on RTX 5070 hardware server**
 - https://jqh2g82b-8000.asse.devtunnels.ms/
 
-
-https://jqh2g82b-8000.asse.devtunnels.ms/api/ollama/prompt/
-<br><br>
+**Ollama**
+api/ollama/prompt/
 
 # OLLAMA
 ** Sample JSON Request ** 
