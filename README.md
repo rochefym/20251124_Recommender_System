@@ -1,5 +1,6 @@
 <h1>API Endpoints</h1>
 <strong>Django server address on RTX 5070 hardware server</strong>
+<br>
 - https://jqh2g82b-8000.asse.devtunnels.ms/
 
 
