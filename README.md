@@ -14,7 +14,8 @@ https://jqh2g82b-8000.asse.devtunnels.ms/
 }
 
 
-
+<pre>
+  <code>
 ================================================================================
 test_client.py
 ================================================================================
@@ -43,3 +44,6 @@ def get_rag_response():
 
 # Function call to test the RAG response:
 get_rag_response()
+
+ </code>
+</pre>
