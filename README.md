@@ -3,10 +3,10 @@
 - https://jqh2g82b-8000.asse.devtunnels.ms/
 
 **Ollama**
-api/ollama/prompt/
+- api/ollama/prompt/
 
 # OLLAMA
-** Sample JSON Request ** 
+**Sample JSON Request** 
 <pre>
   <code>
 {
@@ -16,7 +16,7 @@ api/ollama/prompt/
 </pre>
 
 # RAG
-** Sample JSON Request ** 
+**Sample JSON Request** 
 <pre>
   <code>
 {
