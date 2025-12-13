@@ -1,7 +1,9 @@
 <h1>API Endpoints</h1>
 <strong>Django server address on RTX 5070 hardware server</strong>
-- https://jqh2g82b-8000.asse.devtunnels.ms/
-  https://jqh2g82b-8000.asse.devtunnels.ms/api/ollama/prompt/
+-- https://jqh2g82b-8000.asse.devtunnels.ms/
+
+
+https://jqh2g82b-8000.asse.devtunnels.ms/api/ollama/prompt/
 <br><br>
 
 <h1>OLLAMA</h1>
