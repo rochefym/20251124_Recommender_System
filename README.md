@@ -1,6 +1,25 @@
-https://jqh2g82b-8000.asse.devtunnels.ms/
+<h1>API Endpoints</h1>
+- *Django server address on RTX 5070 hardware server*
+-- https://jqh2g82b-8000.asse.devtunnels.ms/
+
+- *Django server address on RTX 5070 hardware server*
+-- https://jqh2g82b-8000.asse.devtunnels.ms/api/ollama/prompt/
+  
+<br><br>
+
+<h1>OLLAMA</h1>
+https://jqh2g82b-8000.asse.devtunnels.ms/api/ollama/prompt/
+<pre>
+  <code>
 
 
+
+ </code>
+</pre>
+
+<h1>RAG</h1>
+<pre>
+  <code>
 {
     "sex": "male",
     "age": 78,
@@ -12,6 +31,9 @@ https://jqh2g82b-8000.asse.devtunnels.ms/
         "consumed_weight_g": 500.0
     }
 }
+ </code>
+</pre>
+
 
 
 <pre>
