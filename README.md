@@ -5,7 +5,9 @@ port forwarded Django server address on RTX 5070 hardware server:
 
 # Generate Ingredients from meal
 ## api/ollama/generate-ingredients-from-meal/
-## or api/ollama/generate-ingredients-from-meal/
+## api/ollama/generate-ingredients-from-meal/
+    
+**Sample JSON Request**  
 ```
 {
 "meal_text": "Stir-fried chicken with broccoli and garlic sauce"
