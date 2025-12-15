@@ -14,7 +14,7 @@ Port-forwarded Django server running on RTX 5070 hardware:
 - https://jqh2g82b-8000.asse.devtunnels.ms
 1. POST /api/ollama/generate-ingredients-from-meal
 2. POST /api/rag/query
-3. POST /api/rag/query-by-patient
+3. POST /api/rag/recommendations/patient/{int}
 4. POST /api/ollama/chat/prompt  
   
   
@@ -146,7 +146,7 @@ json
      
 ## 4. RAG (Retrieval-Augmented Generation) Recommender By Patient Id
 **Endpoint**  
-POST /api/rag//api/rag/query-by-patient
+POST /api/rag/recommendations/patient/{int}
 
 **Description**  
 Generates personalized dietary or nutrition-related recommendations using user profile and meal data by patient id
@@ -154,9 +154,7 @@ Generates personalized dietary or nutrition-related recommendations using user p
 ### Sample Request     
 json
 ```
-{
-"patient_id": 1
-}
+# post only
 ```
 
 ### Sample Response    
