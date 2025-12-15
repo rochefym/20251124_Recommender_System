@@ -153,7 +153,7 @@ json
      
 ## 4. RAG (Retrieval-Augmented Generation) Recommender By Patient Id
 **Endpoint**  
-POST /api/rag/query  
+POST /api/rag//api/rag/query-by-patient
 
 **Description**  
 Generates personalized dietary or nutrition-related recommendations using user profile and meal data by patient id
