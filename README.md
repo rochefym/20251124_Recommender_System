@@ -14,7 +14,8 @@ Port-forwarded Django server running on RTX 5070 hardware:
 - https://jqh2g82b-8000.asse.devtunnels.ms
 1. POST /api/ollama/generate-ingredients-from-meal/
 2. POST /api/rag/query
-3. POST /api/ollama/chat/prompt/  
+3. POST /api/rag/query-by-patient
+4. POST /api/ollama/chat/prompt/  
   
   
 ---
@@ -131,6 +132,31 @@ POST /api/rag/query
 
 **Description**  
 Generates personalized dietary or nutrition-related recommendations using user profile and meal data.
+    
+### Sample Request
+
+```
+json
+{
+"query": "# Patient Record  - Patient Name: Granny  - Age:72  - Gender: Female - Height:173 cm  - Weight:98 kg  - BMI:32.74 - Heart Rate:93 bpm - Blood Pressure:140/90 mmHg  - Activity Level:active  # Recommended Daily Intake - Calories:2547 kcal - Protein:78.1 g - Carbohydrates:350.2 g  - Fat:78 g - Total Fiber:35.8 g - Alpha Linolenic Acid:1.1 g - Linoleic Acid:10.998 g  - Total Water:2.7 L # Meal Intakes  ## Meal 1  Meal Name: Braised pork chop  Meal Intake (grams): 690 g    ## Meal 2  Meal Name: Dried fish in soy sauce  Meal Intake (grams):  240 g"
+}
+```
+
+### Sample Response  
+
+```
+json
+{
+    "recommendation": ""
+}
+```
+     
+## 4. RAG (Retrieval-Augmented Generation) Recommender By Patient Id
+**Endpoint**  
+POST /api/rag/query  
+
+**Description**  
+Generates personalized dietary or nutrition-related recommendations using user profile and meal data by patient id
     
 ### Sample Request
 
