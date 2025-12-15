@@ -1,14 +1,25 @@
 # API Endpoints
-**BASE - Django server address on RTX 5070 hardware server**
+**BASE URL**
+port forwarded Django server address on RTX 5070 hardware server:
 - https://jqh2g82b-8000.asse.devtunnels.ms/
 
-**Ollama**
-- api/ollama/prompt/
+# Generate Ingredients from meal
+## api/ollama/generate-ingredients-from-meal/
+## or api/ollama/generate-ingredients-from-meal/
+```
+{
+"meal_text": "Stir-fried chicken with broccoli and garlic sauce"
+}
+```
+
+
+
 
 # OLLAMA
+## api/ollama/prompt/
+
 **Sample JSON Request** 
-<pre>
-  <code>
+```
 {
 "prompt": "HI ollama"
 }
@@ -30,5 +41,4 @@
         "consumed_weight_g": 500.0
     }
 }
- </code>
-</pre>
+```
