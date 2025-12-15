@@ -39,13 +39,13 @@ json
 
   
 2. Ollama Prompt API
-Endpoint
-
+**Endpoint**  
 POST /api/ollama/prompt/
-Description
-Sends a prompt directly to the Ollama LLM and returns the generated response.
 
-Sample Request
+**Description**  
+Sends a prompt directly to the Ollama LLM and returns the generated response.
+  
+### Sample Request
 
 ```
 {
@@ -53,7 +53,7 @@ Sample Request
 }
 ```
 
-## Sample Response
+### Sample Response
   
 ```{
 json
@@ -61,14 +61,14 @@ json
 }
 ```
       
-3. RAG (Retrieval-Augmented Generation)
-Endpoint  
+3. RAG (Retrieval-Augmented Generation)  
+**Endpoint**  
 POST /api/rag/  
 
-Description  
+**Description**  
 Generates personalized dietary or nutrition-related recommendations using user profile and meal data.
     
-## Sample Request
+### Sample Request
 ```
 json
 
