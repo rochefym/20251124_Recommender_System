@@ -21,22 +21,23 @@ Port-forwarded Django server running on RTX 5070 hardware:
 
 ## 1. Generate Ingredients from Meal
 
-**Endpoint**
+### Endpoint
 POST /api/ollama/generate-ingredients-from-meal/
 
 
-**Description**  
+### Description  
 Generates a list of ingredients based on a natural language meal description.
 
-**Sample Request**
+### Sample Request
 ```
 {
   "meal_text": "Stir-fried chicken with broccoli and garlic sauce"
 }
-Sample Response
-
+```   
+### Sample Response
+```
 json
-複製程式碼
+
 {
   "ingredients": [
     "chicken breast",
@@ -77,7 +78,7 @@ json
 }
 ```
       
-3. RAG (Retrieval-Augmented Generation) Recommender  
+## 3. RAG (Retrieval-Augmented Generation) Recommender  
 **Endpoint**  
 POST /api/rag/query  
 
@@ -93,7 +94,8 @@ json
 }
 ```
 
-## Sample Response
+### Sample Response  
+
 ```
 json
 {
