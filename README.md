@@ -1,11 +1,19 @@
 # API Documentation
 
-## Base URL
-Port-forwarded Django server running on RTX 5070 hardware:
+## Food Intake Backend - Base URL  
+- https://h3vkhzth-8000.asse.devtunnels.ms/api/patients/1
+    
+1. patients/{int}/
+2. patients/{int}/recommended_intake
+3. patients/{int}/meals
 
-https://jqh2g82b-8000.asse.devtunnels.ms
 
-
+  
+## Recommender - Base URL
+Port-forwarded Django server running on RTX 5070 hardware:  
+- https://jqh2g82b-8000.asse.devtunnels.ms
+  
+  
 ---
 
 ## 1. Generate Ingredients from Meal
