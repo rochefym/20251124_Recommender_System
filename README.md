@@ -38,13 +38,13 @@ json
 ```
 
   
-2. Ollama Prompt API
+## 2. Ollama Prompt API  
 **Endpoint**  
-POST /api/ollama/prompt/
+POST /api/ollama/prompt/  
 
 **Description**  
 Sends a prompt directly to the Ollama LLM and returns the generated response.
-  
+    
 ### Sample Request
 
 ```
