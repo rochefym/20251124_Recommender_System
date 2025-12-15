@@ -5,8 +5,6 @@ Port-forwarded Django server running on RTX 5070 hardware:
 
 https://jqh2g82b-8000.asse.devtunnels.ms
 
-yaml
-複製程式碼
 
 ---
 
@@ -15,14 +13,12 @@ yaml
 **Endpoint**
 POST /api/ollama/generate-ingredients-from-meal/
 
-pgsql
-複製程式碼
 
 **Description**  
 Generates a list of ingredients based on a natural language meal description.
 
 **Sample Request**
-```json
+```
 {
   "meal_text": "Stir-fried chicken with broccoli and garlic sauce"
 }
@@ -39,22 +35,24 @@ json
     "cooking oil"
   ]
 }
+```
+
+  
 2. Ollama Prompt API
 Endpoint
 
-swift
-複製程式碼
 POST /api/ollama/prompt/
 Description
 Sends a prompt directly to the Ollama LLM and returns the generated response.
 
 Sample Request
 
-json
-複製程式碼
+```
 {
   "prompt": "Hi Ollama"
 }
+```
+
 Sample Response
 
 json
