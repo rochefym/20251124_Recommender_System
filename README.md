@@ -39,13 +39,60 @@ Generates a list of ingredients based on a natural language meal description.
 json
 
 {
-  "ingredients": [
-    "chicken breast",
-    "broccoli",
-    "garlic",
-    "soy sauce",
-    "cooking oil"
-  ]
+    "ingredients": [
+        {
+            "name": "chicken",
+            "food_group": "豆魚蛋肉類",
+            "nutrients": [
+                "Protein",
+                "Fats"
+            ]
+        },
+        {
+            "name": "broccoli",
+            "food_group": "蔬菜類",
+            "nutrients": [
+                "Carbohydrate",
+                "Water",
+                "Total Fiber"
+            ]
+        },
+        {
+            "name": "garlic",
+            "food_group": "蔬菜類",
+            "nutrients": [
+                "Water",
+                "Total Fiber"
+            ]
+        },
+        {
+            "name": "soy sauce",
+            "food_group": "調味品類",
+            "nutrients": []
+        },
+        {
+            "name": "oil",
+            "food_group": "調味品類",
+            "nutrients": [
+                "Fats"
+            ]
+        },
+        {
+            "name": "vinegar",
+            "food_group": "調味品類",
+            "nutrients": [
+                "Water"
+            ]
+        },
+        {
+            "name": "ginger",
+            "food_group": "蔬菜類",
+            "nutrients": [
+                "Water",
+                "Total Fiber"
+            ]
+        }
+    ]
 }
 ```
 
