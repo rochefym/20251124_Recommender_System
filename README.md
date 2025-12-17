@@ -15,7 +15,9 @@ Port-forwarded Django server running on RTX 5070 hardware:
 1. POST /api/ollama/generate-ingredients-from-meal
 2. POST /api/rag/query
 3. GET and POST /api/rag/recommendations/patient/{int}
-4. POST /api/ollama/chat/prompt  
+4. POST /api/rag/query/tr-cn/
+5. GET and POST /api/rag/recommendations/patient/{int}/tr-cn/
+6. POST /api/ollama/chat/prompt  
   
   
 ---
